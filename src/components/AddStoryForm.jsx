@@ -9,7 +9,7 @@ const AddStoryForm = ({ setStories }) => {
     e.preventDefault();
 
     if (!title || !content) {
-      alert("Both title and content are required!");
+      alert("Both title and content are required to add a story!");
       return;
     }
 
